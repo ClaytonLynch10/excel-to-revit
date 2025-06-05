@@ -1,5 +1,5 @@
 
-import { FileSpreadsheet, Home, Edit, View, Settings, Help } from 'lucide-react';
+import { FileSpreadsheet, Home, Edit, View, Settings, HelpCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 
@@ -38,7 +38,7 @@ const RibbonNavigation = () => {
           </Button>
           <Separator orientation="vertical" className="h-6" />
           <Button variant="ghost" className="flex items-center space-x-2">
-            <Help className="h-4 w-4" />
+            <HelpCircle className="h-4 w-4" />
             <span>Help</span>
           </Button>
         </div>
